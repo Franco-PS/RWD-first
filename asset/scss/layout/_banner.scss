@@ -1,0 +1,85 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // width: 100%;
+}
+.banner img{
+    margin: 5.5rem 0 2rem;
+}
+.banner--text-container{
+    width: 90%; /*TODO*/
+}
+.banner--text-container h2{
+    background-color: var(--off-white);
+}
+.main--table-content{
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.currency-table--title{
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size18);
+    color: var(--bitcoin-color);
+}
+.currency-table--container{
+    display: grid;
+    grid-template-rows:39px 39px 39px 39px;
+    grid-template-columns: 101px 124px;
+    gap: 3px;
+    font-family: var(--font-family-Inter);
+}
+.table__left{
+    margin: 0;
+    padding: 1rem 1rem 1rem 1.2rem;
+    text-align: left;
+    font-size: var(--font-size16);
+    background-color: var(--just-white);
+}
+.table__right{
+    margin: 0;
+    width: 105px;
+    padding:  1rem 1.2rem;
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size14);
+    background-color: var(--just-white);
+}
+.table__right .down{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 10px;
+    background-image: url("../icon/trending-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.table__right .up{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 10px;
+    background-image: url("../icon/trending-up.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.currency-table--date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 3rem;
+    margin: 2rem 0 0 0;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p{
+    margin: 0;
+    padding: 2rem;
+    font-family: var(--font-family-Inter);
+    font-size: var(--font-size12);
+    font-weight: var(--font-weight-400);
+    color: var(--warm-black);
+}

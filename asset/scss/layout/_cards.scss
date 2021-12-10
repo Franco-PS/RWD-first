@@ -1,0 +1,40 @@
+.card--content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: var(--padding-block);
+    background-color: var(--black);
+}
+.batata-logo--float{
+    position: absolute;
+    top: -1rem;
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url(../icon/group-16.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card--content h2{
+    color: var(--just-white);
+}
+.card--block{
+    max-width: 400px;/*TODO: */
+    margin: 2rem;
+    padding: 1.6rem 2.2rem;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+}
+.card--block-img{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.card--block-title{
+    font-size: var(--font-weight-700);
+    font-size: var(--font-size18);
+    color: var(--just-white);
+}
+.card--block-body{
+    text-align: left;
+}
