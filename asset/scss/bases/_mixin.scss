@@ -1,0 +1,7 @@
+@mixin rwd($Nbp) {
+    @if map-has-key($breackp, $Nbp) {
+        @media screen and(min-width:map-get($breackp, $Nbp)){
+            @content;
+        }
+    }
+}

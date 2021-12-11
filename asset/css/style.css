@@ -199,8 +199,19 @@ body h2, body h1 {
 .card--content h2 {
   color: var(--just-white); }
 
+.cards {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (min-width: 768px) {
+    .cards {
+      flex-flow: row wrap; } }
+
 .card--block {
-  max-width: 400px;
+  min-width: 200px;
+  max-width: 300px;
   /*TODO: */
   margin: 2rem;
   padding: 1.6rem 2.2rem;

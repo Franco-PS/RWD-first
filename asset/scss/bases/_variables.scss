@@ -24,3 +24,9 @@
 :root{
     --padding-block:5rem 0;
 }
+$breackp: (
+    'small': 576px,
+    'tablet': 768px,
+    'escritorio': 992px,
+    'tv': 1200px,
+);

@@ -6,6 +6,7 @@
     width: 100%;
     padding: var(--padding-block);
     background-color: var(--black);
+    
 }
 .batata-logo--float{
     position: absolute;
@@ -19,8 +20,19 @@
 .card--content h2{
     color: var(--just-white);
 }
+.cards{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    @include rwd(tablet){
+        flex-flow: row wrap;
+    }
+}
 .card--block{
-    max-width: 400px;/*TODO: */
+    min-width: 200px;
+    max-width: 300px;/*TODO: */
     margin: 2rem;
     padding: 1.6rem 2.2rem;
     background-color: var(--warm-black);
